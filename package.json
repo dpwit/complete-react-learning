@@ -1,0 +1,20 @@
+{
+  "name": "complete-react-learning",
+  "version": "1.0.0",
+  "description": "Complete react learning repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpwit/complete-react-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpwit/complete-react-learning/issues"
+  },
+  "homepage": "https://github.com/dpwit/complete-react-learning#readme"
+}
