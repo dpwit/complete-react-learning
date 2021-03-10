@@ -1,5 +1,14 @@
-import React from 'react';
-import {render} from 'react-dom';
+import React from 'react'
+import {render} from 'react-dom'
+import Button from './Button'
+
+function showAlert() {
+	alert("Hello");
+}
+
+function secondAlert() {
+	alert("Hello Again!");
+}
 
 function Link({ href='', target, children }) {
 	return (
@@ -24,6 +33,8 @@ function App() {
 			<Link>YouTube</Link>
 			<Welcome name="Scott" />
 			<Link>Bing</Link>
+			<Button onClick={showAlert}>Click me</Button>
+			<Button onClick={secondAlert}>Show Alert</Button>
 		</>
 	)
 }
