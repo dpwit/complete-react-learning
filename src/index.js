@@ -4,6 +4,7 @@ import Button from './components/atoms/Button'
 import Link from './components/atoms/Link'
 import Input from './components/atoms/Input'
 import Label from './components/atoms/Label'
+import Formfield from './components/molecules/Formfield'
 
 function showAlert() {
 	alert("Hello");
@@ -36,6 +37,8 @@ function App() {
 			<Input type="text" name="firstName" />
 			<Label for="lastName">Last Name</Label>
 			<Input type="text" name="lastName" />
+			<h1>Molecule form field</h1>
+			<Formfield />
 		</>
 	)
 }
