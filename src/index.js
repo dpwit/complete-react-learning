@@ -31,6 +31,7 @@ function App() {
 			<Link>Bing</Link>
 			<Button onClick={showAlert}>Click me</Button>
 			<Button onClick={secondAlert}>Show Alert</Button>
+			<Input type="text" name="firstName"></Input>
 		</>
 	)
 }
