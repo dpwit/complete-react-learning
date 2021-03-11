@@ -6,10 +6,10 @@ import Label from '../atoms/Label'
 const Formfield = props => {
     return (
         <>
-            <Label for="firstName">First Name</Label>
-            <Input type="text" name="firstName" />
-            <Label for="lastName">Last Name</Label>
-            <Input type="text" name="lastName" />
+            <Label for="forname">Forname</Label>
+            <Input type="text" name="forname" />
+            <Label for="surname">Surname</Label>
+            <Input type="text" name="surname" />
             <Button>Submit</Button>
         </>
 
