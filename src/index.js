@@ -3,6 +3,7 @@ import {render} from 'react-dom'
 import Button from './Button'
 import Link from './Link'
 import Input from './Input'
+import Label from './Label'
 
 function showAlert() {
 	alert("Hello");
@@ -31,7 +32,8 @@ function App() {
 			<Link>Bing</Link>
 			<Button onClick={showAlert}>Click me</Button>
 			<Button onClick={secondAlert}>Show Alert</Button>
-			<Input type="text" name="firstName"></Input>
+			<Label for="firstName">First Name</Label>
+			<Input type="text" name="firstName" />
 		</>
 	)
 }
