@@ -9,8 +9,14 @@ const Link = props => {
 		children
 	} = props
 
-	return (
-		<a href={ href } target={ target } className='link'>{ children }</a>
+	// return a link in standard format
+	// return (
+	//	<a href={ href } target={ target } className='link'>{ children }</a>
+	//)
+
+	// return a link with the spread operator
+	return(
+		<a { ... { href, rel, target } } className='link'>{ children }</a>
 	)
 }
 
