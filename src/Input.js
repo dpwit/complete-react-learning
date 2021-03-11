@@ -9,7 +9,7 @@ const Input = props => {
     } = props
 
     return (
-        <input { ... { type, name, value } }></input>
+        <input { ... { type, name, value } } />
 
     )
 }
