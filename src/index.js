@@ -1,9 +1,9 @@
 import React from 'react'
 import {render} from 'react-dom'
-import Button from './Button'
-import Link from './Link'
-import Input from './Input'
-import Label from './Label'
+import Button from './components/atoms/Button'
+import Link from './components/atoms/Link'
+import Input from './components/atoms/Input'
+import Label from './components/atoms/Label'
 
 function showAlert() {
 	alert("Hello");
