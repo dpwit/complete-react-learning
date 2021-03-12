@@ -5,6 +5,7 @@ import Link from './components/atoms/Link'
 import Input from './components/atoms/Input'
 import Label from './components/atoms/Label'
 import Formfield from './components/molecules/Formfield'
+import Counter from './components/molecules/Counter'
 
 function showAlert() {
 	alert("Hello");
@@ -39,6 +40,7 @@ function App() {
 			<Input type="text" name="lastName" />
 			<h1>Molecule form field</h1>
 			<Formfield />
+			<Counter />
 		</>
 	)
 }
