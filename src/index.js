@@ -15,6 +15,20 @@ function secondAlert() {
 	alert("Hello Again!");
 }
 
+//ES6 javascript
+const ES6FunctionalComponent = () => {
+	return (
+		<h1>ES6 functional component</h1>
+	)
+}
+
+//ES5 javascript
+function ES5FunctionalComponent() {
+	return (
+		<h1>ES5 functional component</h1>
+	)
+}
+
 function Welcome(props) {
 	return (
 		<h1 className='heading'>Hello {props.name} !</h1>
@@ -24,6 +38,8 @@ function Welcome(props) {
 function App() {
 	return (
 		<>
+			<ES6FunctionalComponent />
+			<ES5FunctionalComponent />
 			<Welcome name="Darren" />
 			<Link href="https://www.google.com" target="_blank">Google</Link>
 			<Welcome name="Dan" />
