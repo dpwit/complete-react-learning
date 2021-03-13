@@ -50,6 +50,7 @@ function App() {
 			<ES6FunctionalComponent name="Example1" />
 			<ES5FunctionalComponent name="Example2" />
 			<ClassComponent value="Example3" />
+			<ClassComponent value="Example4" />
 			<Welcome name="Darren" />
 			<Link href="https://www.google.com" target="_blank">Google</Link>
 			<Welcome name="Dan" />
