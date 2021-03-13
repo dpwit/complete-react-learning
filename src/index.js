@@ -16,26 +16,28 @@ function secondAlert() {
 }
 
 //ES6 javascript functional component
-const ES6FunctionalComponent = () => {
+const ES6FunctionalComponent = (props) => {
 	return (
-		<h1>ES6 functional component</h1>
+		<h1>{ props.name } ES6 functional component</h1>
 	)
 }
 
 //ES5 javascript function component
-function ES5FunctionalComponent() {
+function ES5FunctionalComponent(props) {
 	return (
-		<h1>ES5 functional component</h1>
+		<h1>{ props.name } ES5 functional component</h1>
 	)
 }
 
 //class component
 class ClassComponent extends Component {
 	render() {
-		return <h1>React.js class component</h1>
+		const { value } = this.props;
+		return <h1>{ value } React.js class component</h1>
 	}
 }
 
+//ES5 functional component
 function Welcome(props) {
 	return (
 		<h1 className='heading'>Hello {props.name} !</h1>
@@ -45,9 +47,9 @@ function Welcome(props) {
 function App() {
 	return (
 		<>
-			<ES6FunctionalComponent />
-			<ES5FunctionalComponent />
-			<ClassComponent />
+			<ES6FunctionalComponent name="Example1" />
+			<ES5FunctionalComponent name="Example2" />
+			<ClassComponent value="Example3" />
 			<Welcome name="Darren" />
 			<Link href="https://www.google.com" target="_blank">Google</Link>
 			<Welcome name="Dan" />
