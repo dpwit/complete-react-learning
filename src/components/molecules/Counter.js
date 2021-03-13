@@ -11,7 +11,7 @@ class Counter extends Component {
         }
     }
 
-    setCount() {
+    setAdd() {
         this.setState({
             count: this.state.count + 1
         })
@@ -28,8 +28,8 @@ class Counter extends Component {
     render() {
         return (
             <>
-                <p>{this.state.count}</p>
-                <Button onClick={() => this.setCount()}>Add</Button>
+                <p>This number changes to {this.state.count} when button's clicked</p>
+                <Button onClick={() => this.setAdd()}>Add</Button>
                 <Button onClick={() => this.setMinus()}>Minus</Button>
             </>
         )
