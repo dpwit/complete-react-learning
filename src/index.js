@@ -1,5 +1,5 @@
-import React from 'react'
-import {render} from 'react-dom'
+import React, { Component } from 'react'
+import { render } from 'react-dom'
 import Button from './components/atoms/Button'
 import Link from './components/atoms/Link'
 import Input from './components/atoms/Input'
@@ -15,18 +15,25 @@ function secondAlert() {
 	alert("Hello Again!");
 }
 
-//ES6 javascript
+//ES6 javascript functional component
 const ES6FunctionalComponent = () => {
 	return (
 		<h1>ES6 functional component</h1>
 	)
 }
 
-//ES5 javascript
+//ES5 javascript function component
 function ES5FunctionalComponent() {
 	return (
 		<h1>ES5 functional component</h1>
 	)
+}
+
+//class component
+class ClassComponent extends Component {
+	render() {
+		return <h1>React.js class component</h1>
+	}
 }
 
 function Welcome(props) {
@@ -40,6 +47,7 @@ function App() {
 		<>
 			<ES6FunctionalComponent />
 			<ES5FunctionalComponent />
+			<ClassComponent />
 			<Welcome name="Darren" />
 			<Link href="https://www.google.com" target="_blank">Google</Link>
 			<Welcome name="Dan" />
