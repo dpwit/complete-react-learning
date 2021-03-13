@@ -22,7 +22,7 @@ const ES6FunctionalComponent = (props) => {
 	)
 }
 
-//ES5 javascript function component
+//ES5 javascript functional component
 function ES5FunctionalComponent(props) {
 	return (
 		<h1>{ props.name } ES5 functional component</h1>
