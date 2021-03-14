@@ -16,6 +16,7 @@ function UserGreeting() {
 
 }
 
+// functional component
 const Greeting = (props) => {
 
     const isSignedUp = props.isSignedUp;
