@@ -8,6 +8,7 @@ import Formfield from './components/molecules/Formfield'
 import Counter from './components/molecules/Counter'
 import CounterTwo from './components/molecules/CounterTwo'
 import Greeting from './components/atoms/Greeting'
+import Login from './components/molecules/Login'
 
 function showAlert() {
 	alert("Hello");
@@ -71,7 +72,8 @@ function App() {
 			<Formfield />
 			<Counter />
 			<CounterTwo />
-			<Greeting isSignedUp={true} />
+			<Greeting isSignedUp={false} />
+			<Login />
 		</>
 	)
 }
