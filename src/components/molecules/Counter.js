@@ -28,7 +28,7 @@ class Counter extends Component {
     render() {
         return (
             <>
-                <p>This number changes to {this.state.count} when button's clicked</p>
+                <p>Example1: This number changes to {this.state.count} when button's clicked</p>
                 <Button onClick={() => this.setAdd()}>Add</Button>
                 <Button onClick={() => this.setMinus()}>Minus</Button>
             </>
