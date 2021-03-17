@@ -3,8 +3,13 @@ import Button from "../atoms/Button";
 
 const CounterThree = () => {
 
+    // Hooks useSate example
     const [ count, setCount ] = useState(() => {
         return 4
+    })
+
+    const [ color, setColor ] = useState(() => {
+        return "Blue"
     })
 
     function decreaseCount() {
@@ -18,6 +23,7 @@ const CounterThree = () => {
     return (
         <>
             <p>{ count }</p>
+            <p>{ color }</p>
             <Button onClick={decreaseCount}>Decrease</Button>
             <Button onClick={increaseCount}>Increase</Button>
         </>

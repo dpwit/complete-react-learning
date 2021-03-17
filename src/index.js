@@ -10,6 +10,7 @@ import CounterTwo from './components/molecules/CounterTwo'
 import CounterThree from './components/molecules/CounterThree'
 import Greeting from './components/atoms/Greeting'
 import Login from './components/molecules/Login'
+import Data from "./components/molecules/Data"
 
 function showAlert() {
 	alert("Hello");
@@ -76,6 +77,7 @@ function App() {
 			<CounterThree />
 			<Greeting isSignedUp={false} />
 			<Login />
+			<Data />
 		</>
 	)
 }
