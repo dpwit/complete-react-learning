@@ -7,6 +7,7 @@ import Label from './components/atoms/Label'
 import Formfield from './components/molecules/Formfield'
 import Counter from './components/molecules/Counter'
 import CounterTwo from './components/molecules/CounterTwo'
+import CounterThree from './components/molecules/CounterThree'
 import Greeting from './components/atoms/Greeting'
 import Login from './components/molecules/Login'
 
@@ -72,6 +73,7 @@ function App() {
 			<Formfield />
 			<Counter />
 			<CounterTwo />
+			<CounterThree />
 			<Greeting isSignedUp={false} />
 			<Login />
 		</>
