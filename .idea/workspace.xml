@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8feb00c6-b96c-4cdd-92b3-e63f28a66e2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/counter/Counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/counter/counterSlice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Templates/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Templates/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Templates/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Templates/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +43,7 @@
       <recent name="$PROJECT_DIR$/src/components/atoms" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -68,8 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.build-dev" />
       </list>
     </recent_temporary>
@@ -82,7 +90,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615397392487</updated>
-      <workItem from="1615397393742" duration="33075000" />
+      <workItem from="1615397393742" duration="34641000" />
+      <workItem from="1619182940804" duration="4195000" />
+      <workItem from="1619519005154" duration="505000" />
     </task>
     <servers />
   </component>
